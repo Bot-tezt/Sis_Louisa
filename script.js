@@ -129,7 +129,7 @@
                 const message = document.getElementById('message').value;
                 
                 // Create WhatsApp message
-                const whatsappMessage = `*Happy Birthday Sis Louisa*!%0A%0A*From*: ${encodeURIComponent(name)}%0A%0AMessage: ${encodeURIComponent(message)}`;
+                const whatsappMessage = `Happy Birthday Sis Louisa!%0A%0AFrom: ${encodeURIComponent(name)}%0A%0AMessage: ${encodeURIComponent(message)}`;
                 
                 // Open WhatsApp with the message
                 window.open(`https://wa.me/12404715386?text=${whatsappMessage}`, '_blank');
